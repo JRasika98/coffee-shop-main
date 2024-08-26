@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"> <i class="fas fa-coffee"></i> Rio<span>Coffee</span></a></div>
+              <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#menu" class="menu-btn">Menu</a></li>
+                <li><a href="#benifits" class="menu-btn">Benefits</a></li>
+                <li><a href="#reviews" class="menu-btn">Reviews</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+               
+                 <li> <a></a></li>
+                <div id="login-btn" class="fas fa-user"></div>
+            </ul>
+            
+            </div>
+    
+    </nav>
+    
+
+<!-- login form starts -->
+
+<div class="login-form">
+   
+    <form name="myform" action="register.php" method="POST">
+    <div id="close-login-form" class="fas fa-times"></div>
+  <div id="close-login-form" class="fas fa-times"></div>
+  <a href="#" class="logo mr-auto"> <i class="fas fa-mug-hot"></i> coffee </a>
+  <h3>let's start a new great day</h3>
+  
+
+    <input type="text" name="uname1" placeholder="Enter Username" required=""class="box">
+    <input type="Email" name="email" placeholder="Enter Email Id" required=""class="box">
+
+    <input type="password" name="upswd1" placeholder="Enter Password" required=""class="box">
+    <input type="password" name="upswd2" placeholder="Re-Enter Password" required=""class="box">
+
+  <div class="flex">
+     <input type="checkbox" name="" id="remember-me">
+    <label for="remember-me">remember me</label> 
+    <a href="#">forgot password?</a>
+  </div>
+  <h4><input type="submit" value="Login Now" class="link-btn"></h4>
+  
+ <h3><p class="account">Your account is created <a href="#"></a></p>
+ </h3> 
+</form>
+
+</div>
+</header>
+<!-- login form ends -->
+
+     <!-- home section start -->
+     <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+        
+                <div class="text-2">Good Coffee will always find the audience</div>
+                <div class="text-3">It's not just coffee it's <span class="typing"></span></div>
+              <a href="#about" class="btn">Buy One Now</a>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="container">
+ 
+       <div class="row align-items-center">
+          <div class="col-md-6">
+           
+          </div>
+          <div class="col-md-6">
+           
+             <h3 class="title">About Our Coffee</h3>
+             <div class="text3">What's Make Our Coffee Special...!! <span class="typing-2"></span></div>
+                 
+             <p>Quality of the coffee, The first thing that comes to mind when thinking about specially coffee is its advanced quality.
+                the flovors hidden in a cup this comes not just from the quality of the specialty coffee beans. 
+                but from the work ethic and dedication put into it by the famer.</p>
+
+             <div class="icons-container">
+                <div class="icons">
+                   <i class="fas fa-coffee"></i>
+                   <h3>best coffee</h3>
+                </div>
+                <div class="icons">
+                   <i class="fas fa-shipping-fast"></i>
+                   <h3>free delivery</h3>
+                </div>
+                <div class="icons">
+                   <i class="fas fa-headset"></i>
+                   <h3>24/7 service</h3>
+                </div>
+             </div>
+          </div>
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- about section ends -->
+
+
+    <!-- menu section starts  -->
+    
+
+<section class="menu" id="menu">
+
+    <h1 class="title"> Our Menu </h1>
+ 
+    <div class="container box-container">
+ 
+       <div class="box">
+          <img src="images/Cappuccion.jpg" alt="">
+         
+          <div class="text"><h3>Cappuccino</h3></div>
+                        
+          <p> Cappuccinos are a fan favorite when visiting coffee shops. 
+            This is especially the case because of the latte art decorations that are often drawn into the steamed milk foam.
+            
+        </p>
+
+            </div>
+ 
+       <div class="box">
+          <img src="images/Affogato.jpg" alt="">
+          <div class="text"><h3>Affogato</h3></div>
+          <p>Affogato technically is not a beverage, but it is still coffee-based. 
+              Affogato is actually a dessert that is meant to either be slowly sipped or enjoyed with a spoon. 
+              </p>
+               </div>
+ 
+       <div class="box">
+          <img src="images/iced.jpg" alt="">
+          <div class="text"><h3>Iced latte</h3></div>
+          <p>An iced latte is a fairly simple drink to make, similar to an iced coffee. 
+              To make iced lattes, you just need to blend a chilled espresso drink, the desired amount of sweetener, milk, and ice. 
+             </p>
+             </div>
+ 
+       <div class="box">
+          <img src="images/nitro-brew.jpg" alt="">
+          <div class="text"><h3>Nitro Cold Brew</h3></div>
+          <p>The nitro cold brew is similar to the original cold brew coffee, except it is made with nitrogen. 
+           creamy finish that is reminiscent of nitro draft beers like the Guinness. 
+           
+               </div>
+ 
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- menu section ends -->
+ 
+ <!-- benifits section starts  -->
+ 
+ <section class="benifits" id="benifits">
+ 
+    <h1 class="title"> Benefits of Coffee </h1>
+ 
+    <div class="box-container container">
+ 
+       <div class="box">
+          <img src="images/g-img-1.jpg" alt="">
+          <div class="content">
+            <i class="fas fa-battery-full"></i>
+            <h3>Boosts Energy Levels</h3>
+         <p>Coffee contains caffeine, its ability to fight fatigue and increase energy levels .
+           your brain that regulate your energy levels, including dopamine.
+           consuming caffeine before and during a round of golf improved performance, increased subjective energy levels,
+            and reduced feelings of fatigue.</p>   </div>
+       </div>
+ 
+       <div class="box">
+          <img src="images/g-img-2.jpg" alt="">
+          <div class="content">
+             <i class="fas fa-brain"></i>
+            <h3> Could support brain health</h3>
+            <p>Coffee may help protect against certain neurodegenerative disorders, including Alzheimer's disease and Parkinson's disease.
+               29,000 people also found that the more coffee people consumed, 
+              Additionally,coffee consumption could be associated with a lower risk of dementia and cognitive decline. </p>
+      </div>
+       </div>
+ 
+       <div class="box">
+          <img src="images/g-img-3.jpg" alt="">
+          <div class="content">
+            <i class="fas fa-weight"></i>
+            <h3>May promote weight management</h3>
+                        <p>According to some research, coffee could alter fat storage and support gut health, body fat,
+                          drank coffee per day were 17% more likely to meet recommended physical activity levels, 
+                         
+                           Higher levels of physical activity could help promote weight management.
+                  </div>
+       </div>
+ 
+       <div class="box">
+          <img src="images/gallery-3.webp" alt="">
+          <div class="content">
+            <i class="fas fa-capsules"></i>
+            <h3> Linked to a lower risk of depression </h3>
+            <p> Some studies have found that drinking coffee could be associated with a lower risk of depression.
+               Each cup of  coffee people consumed per day was linked to an 8% lower risk of  depression.
+            Drinking coffee was linked to a lower risk of  death bt suicide.  </p>
+           </div>
+       </div>
+ 
+       <div class="box">
+          <img src="images/g-img-5.jpg" alt="">
+          <div class="content">
+            <i class="fas fa-heart"></i>
+            <h3> Support heart health </h3>
+            <p> In fact, one review found that drinking three to five cups of coffee per day was tied to a 15% reduced risk of heart disease.
+               In more than 21,000 people also found that increased coffee intake was associated with a significantly decreased risk of heart failure.
+               
+            </p>       </div>
+       </div>
+ 
+       <div class="box">
+          <img src="images/g-img-6.jpg" alt="">
+          <div class="content">
+            <i class="fas fa-snowboarding"></i>
+            <h3> may enhance athletic performance</h3>
+            <p> Coffee is  looking to improve performance,increase energy levells.
+               rdrinking coffee before exrcise improved people's 
+                improved physical performance and faster gait speed,
+                like age, belly fat,physical activity levels.
+            </p>   </div>
+       </div>
+ 
+    </div>
+ 
+ </section>
+ 
+ <!-- benefits  section ends -->
+ 
+ 
+ 
+    <!-- reviews section start -->
+    <section class="reviews" id="reviews">
+        <div class="max-width">
+            <h2 class="title">Customers Reviews</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                       
+                        <img src="images/amir.jpeg" alt="">
+                        
+                        <div class="text">Amir</div>
+                        
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                        <p>  <i class="fas fa-quote-left"></i>   I really like the atmoshere, good coffee, and interior. this is a good palace to study or chill with friends. 
+                            drink and foods ware all tasty and worthwhile. 
+                            if you're up for a fresh place with beautiful architecture then this is a must to visit. <i class="fas fa-quote-right">  </i></p>
+                            
+                           </div>
+                          
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/ciby.jpg" alt="">
+                        
+                        <div class="text">Ciby</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         
+                        <p><i class="fas fa-quote-left"></i> This place is amazing! the offered the best coffee and showed the best attitude to its costumerrs. 
+                            internet connection is very fast and is unlimited as well.perfect for study and chilling out 
+                             I just want to keep coming back. Thank you! <i class="fas fa-quote-right"></i></p>
+                              </div>
+                             
+                              
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/kavin.jpg" alt="">
+                        <div class="text">Kavin</div>
+                      
+                       
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                        <p><i class="fas fa-quote-left"></i>  I would probably say that this coffee shop is a must for coffee lovers! The service was good, 
+                            and the variety of coffee served in the ambiance was very satisfying. 
+                            If you like your coffee shops, must-visit! We will be back again!  <i class="fas fa-quote-right"></i></p>
+                         </div>
+                        
+              
+               
+            </div>
+        </div>
+    </section>
+
+   
+    
+    <!-- contact section start -->
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Booking reserve a table</h2>
+            
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text"><h4>Contact Me</h4></div>
+                    <p> Our table booking and management system costs just LRK 100.00.with free set up, no commission or per cover charge and no hidden bills you can account for our charge and focus on increasing bookings easily and cheaply. 
+                        <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head"><h4>Our Email</h4></div>
+                                <div class="sub-title">rio@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head"><h4>Shop Location</h4></div>
+                                <div class="sub-title"> Suhadamawda,Weliwitta</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head"><h4>Our Number </h4></div>
+                                <div class="sub-title">0717580406</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-clock"></i>
+                            <div class="info">
+                                <div class="head"><h4>Opening Hours</h4></div>
+                                <div class="sub-title">08:00am to 09:00pm</div>
+                           
+                       </div>
+                   </div>
+                    </div>
+                </div>
+               
+                <div class="column right">
+                    <div class="text">Contact Me</div>
+                    <form action="contact.php"method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text"name="uname" placeholder=" Your Name" required>
+                            </div>
+                  
+                            <div class="field email">
+                                <input type="email" name="email" placeholder=" Your Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                           <input type="number" name="numbr" required class="box" maxlength="20" placeholder=" Your Number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+             </div>
+                        <div class="field">
+                            <input type="text" name="venu" placeholder="Venue" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10"name="mesg"  placeholder="Message.." required></textarea>
+                           
+                        </div>
+                        <div class="field">
+                           <input type="number" name="guest" required class="box" maxlength="20" placeholder="How Many Guests" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+            </div>
+
+           
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Frontend developer</a> | <span class="far fa-copyright"></span> Anu</span>
+    </footer>
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
